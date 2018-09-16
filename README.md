@@ -36,5 +36,17 @@ Cudnn RNNs have two major differences from other platform-independent RNNs tf
 | CuDNNLSTM    | 130.84    | 39.82       |
 
 
+## Classes found in `tf.contrib.cudnn_rnn`
+class CudnnCompatibleGRUCell: Cudnn Compatible GRUCell.
+class CudnnCompatibleLSTMCell: Cudnn Compatible LSTMCell.
+class CudnnGRU: Cudnn implementation of the GRU layer.
+class CudnnGRUSaveable: SaveableObject implementation handling Cudnn GRU opaque params.
+class CudnnLSTM: Cudnn implementation of LSTM layer.
+class CudnnLSTMSaveable: SaveableObject implementation handling Cudnn LSTM opaque params.
+class CudnnRNNRelu: Cudnn implementation of the RNN-relu layer.
+class CudnnRNNReluSaveable: SaveableObject implementation handling Cudnn RNN Relu opaque params.
+class CudnnRNNTanh: Cudnn implementation of the RNN-tanh layer.
+class CudnnRNNTanhSaveable: SaveableObject implementation handling Cudnn RNN Tanh opaque params.
+
 ## Reference :
 This code is taken from different open-source platforms and [tensorflow.org](www.tensorflow.org)
