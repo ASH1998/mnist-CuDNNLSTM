@@ -1,4 +1,6 @@
 # mnist-CuDNNLSTM
+[![HitCount](http://hits.dwyl.io/ASH1998/mnist-CuDNNLSTM.svg)](http://hits.dwyl.io/ASH1998/mnist-CuDNNLSTM) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)   
+
 
 This code comapres accuracy and time results for vanills LSTM and CuDNNLSTM.
 
